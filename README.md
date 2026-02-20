@@ -1,4 +1,11 @@
-## Professional Assessment
+Portfolio Navigation
+- [Professional Self-Assessment] (#professional-self-assessment)
+- [Code Review] (#code-review)
+- Enhancement One: Software Design and Engineering (#enhancement-one-software-design-and-engineering)
+- Enhancement Two: Algorithms and Data Structures (#enhancement-two-algorithms-and-data-structures)
+- Enhancement Three: Databases (#enhancement-three-databases)
+
+## Professional Self-Assessment
 
 Completing the Computer Science program and developing my ePortfolio has strengthened both my technical expertise and my professional direction. Throughout the program, I progressed from building functional applications to designing scalable, secure systems aligned with industry standards. The capstone process required me to revisit prior coursework, such as my Weight Tracker mobile application, and improve it through architectural refactoring, algorithmic optimization, and database redesign. This experience reinforced my professional values of clean design, measurable performance improvement, and secure data handling. It also sharpened my career focus in data analytics and software development, where structured data, efficiency, and insight-driven decision-making are central.
 
