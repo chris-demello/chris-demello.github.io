@@ -1,13 +1,20 @@
 ## Professional Assessment
 
+Completing the Computer Science program and developing my ePortfolio has strengthened both my technical expertise and my professional direction. Throughout the program, I progressed from building functional applications to designing scalable, secure systems aligned with industry standards. The capstone process required me to revisit prior coursework, such as my Weight Tracker mobile application, and improve it through architectural refactoring, algorithmic optimization, and database redesign. This experience reinforced my professional values of clean design, measurable performance improvement, and secure data handling. It also sharpened my career focus in data analytics and software development, where structured data, efficiency, and insight-driven decision-making are central.
+
+Collaboration and communication have played a critical role in my growth. Although most of my coursework was completed independently, I consistently approached projects as part of a greater collaborative effort by clearly organizing responsibilities, documenting my design decisions, and conducting structured self-code reviews to ensure consistency and maintainability. Outside the classroom, my experience in healthcare systems and technical support strengthened my ability to communicate technical concepts to nontechnical stakeholders. Whether explaining system enhancements, outlining database changes, or discussing security improvements, I learned that effective communication is essential to successful software implementation. These experiences prepared me to contribute to collaborative development environments and to translate technical decisions into meaningful organizational outcomes.
+
+The program deepened my understanding of data structures, algorithms, software engineering, databases, and security as interconnected disciplines. I applied algorithmic principles to improve performance by analyzing time complexity and selecting appropriate data structures. I strengthened software engineering practices by implementing modular design, separation of concerns, and service-layer refactoring. My database enhancements incorporated normalization, indexing, and aggregation queries to improve analytical capability and performance. Additionally, I adopted a security-focused mindset by implementing password hashing, input validation, and parameterized queries to protect user data and prevent vulnerabilities. These skills collectively demonstrate my ability to design computing solutions that balance efficiency, maintainability, and security.
+
+The artifacts in this portfolio reflect this progression and, together, demonstrate the full range of my abilities. Each enhancement builds upon the same foundational application, illustrating growth in architecture, algorithmic efficiency, and database optimization. Together, they show how thoughtful design decisions across multiple layers of a system result in a cohesive, high-quality software solution. This portfolio serves as both a reflection of my academic journey and evidence of my readiness to contribute as a computer science professional.
+
 
 
 ## Code Review
 
-The following link below is my code review. This showcases the original project that was developed in CS360. The review starts with running the application and showing how the weight lost tracking application works. From a login screen to inputting daily weight entries, it displays a simple program. The next step reviews the issues with the functionality that'll need to be addressed. Following this, each class is reviewed and commented on how I can improve the existing code as well as incorporate the three new enhancements.
+The following link is my code review. This showcases the original project that was developed in CS360. The review starts by running the application and showing how it works. From a login screen to inputting daily weight entries, it displays a simple program. The video continues by reviewing the issues with the functionality that will need to be addressed. Following this, each class is reviewed, and I give feedback on how to improve the existing code and incorporate the three new enhancements.
 
-Youtube Link:
-<a href="https://youtu.be/snYcL6vZMM8"> Code Review </a>
+<a href="https://youtu.be/snYcL6vZMM8"> Code Review Link</a>
 
 ## Enhancement One: Software Design and Engineering
 
