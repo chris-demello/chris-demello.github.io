@@ -1,9 +1,9 @@
 ## Portfolio Navigation
 - [Professional Self-Assessment](#professional-self-assessment)
 - [Code Review](#code-review)
-- [Enhancement One: Software Design and Engineering](#enhancement-one-software-design-and-engineering)
-- [Enhancement Two: Algorithms and Data Structures](#enhancement-two-algorithms-and-data-structures)
-- [Enhancement Three: Databases](#enhancement-three-databases)
+- [Enhancement 1: Software Design & Engineering](#enhancement-one-software-design-and-engineering)
+- [Enhancement 2: Algorithms & Data Structures](#enhancement-two-algorithms-and-data-structures)
+- [Enhancement 3: Databases](#enhancement-three-databases)
 - [Artifact Access](#artifact-access)
 
 ## Professional Self-Assessment
@@ -22,11 +22,11 @@ The artifacts in this portfolio reflect this progression and, together, demonstr
 
 The following link is my code review. This showcases the original project that was developed in CS360. The review starts by running the application and showing how it works. From a login screen to inputting daily weight entries, it displays a simple program. The video continues by reviewing the issues with the functionality that will need to be addressed. Following this, each class is reviewed, and I give feedback on how to improve the existing code and incorporate the three new enhancements.
 
-<a href="https://youtu.be/snYcL6vZMM8"> Code Review Link</a>
+[Code Review Link](https://youtu.be/snYcL6vZMM8)
 
 ## Enhancement One: Software Design and Engineering
 
-The artifact selected for my ePortfolio is a Weight Tracker mobile application originally created in CS 360: Mobile Architecture and Programming.  It was created back in December 2024. The original version allowed users to create an account and add/delete weight entries to help them track their goals. It covered the basic functionality and user interaction needed to work. This was especially true in design, where modularity, scalability, and security were lacking. For this enhancement, the artifact was expanded upon. It included a redesign of architecture, improved security handling, and a new dashboard feature that visualizes weight trends. These planned changes were implemented as part of the CS499 part one enhancement process. This builds upon the existing project while significantly increasing the technical and professional quality.
+The artifact selected for my ePortfolio is a Weight Tracker mobile application originally created in CS 360: Mobile Architecture and Programming.  It was created in December 2024. The original version allowed users to create an account and add/delete weight entries to help them track their goals. It covered the basic functionality and user interaction needed to work. This was especially true in design, where modularity, scalability, and security were lacking. For this enhancement, the artifact was expanded upon. It included a redesign of architecture, improved security handling, and a new dashboard feature that visualizes weight trends. These planned changes were implemented as part of the CS499 part one enhancement process. This builds upon the existing project while significantly increasing the technical and professional quality.
 
 The selection process for this artifact was chosen because it demonstrates software design and engineering skills across several aspects. The refactoring process highlights object-oriented programming principles and separation of concerns by introducing utility, service, and repository classes. This abstracted away from the MainActivity and LoginActivity classes, improving maintainability and reusability. Adding the dashboard activity with a dynamic trend-line chart displays UI skills and the ability to translate raw data into visual insights for users (See DashBoardActivity and ChartUtils classes). Security improvements, such as password hashing and input validation (See the PasswordUtils and InputValidator classes), enable a security-focused approach to the application. These three areas within my enhancement show the ability to design maintainable, scalable, and secure system.
 
@@ -56,5 +56,6 @@ Through this enhancement, I have learned how database design decisions can affec
 
 ## Artifact Access
 
-- [View Original Artifact (Zip file)](https://github.com/chris-demello/chris-demello.github.io/raw/main/Weight%20Tracker%20App_CS360_Original.zip)
-- [View Enhanced Artifact (Zip file)](https://github.com/chris-demello/chris-demello.github.io/raw/main/WeightTrackerApp_CS499_Enhanced.zip)
+- [Download Original Artifact (Zip file)](https://github.com/chris-demello/chris-demello.github.io/raw/main/Weight%20Tracker%20App_CS360_Original.zip)
+- [Download Enhanced Artifact (Zip file)](https://github.com/chris-demello/chris-demello.github.io/raw/main/WeightTrackerApp_CS499_Enhanced.zip)
+- [Browse Repository](https://github.com/chris-demello/chris-demello.github.io)
