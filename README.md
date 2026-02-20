@@ -57,5 +57,5 @@ Through this enhancement, I have learned how database design decisions can affec
 ## Artifact Access
 
 - [View Original Artifact (Zip file)](./WeightTrackerApp_CS360_Original.zip)
-- [View Enhanced Application (Zio file)](./WeightTrackerApp_CS499_Enhanced.zip)
+- [View Enhanced Application (Zip file)](./WeightTrackerApp_CS499_Enhanced.zip)
 
