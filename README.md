@@ -4,6 +4,7 @@
 - [Enhancement One: Software Design and Engineering](#enhancement-one-software-design-and-engineering)
 - [Enhancement Two: Algorithms and Data Structures](#enhancement-two-algorithms-and-data-structures)
 - [Enhancement Three: Databases](#enhancement-three-databases)
+- [Artifact Access](#artifact-access)
 
 ## Professional Self-Assessment
 
@@ -35,7 +36,7 @@ During the process of modifying my artifact, I found it valuable to understand h
 
 ## Enhancement Two: Algorithms and Data Structures
 
-The artifact selected for the algorithms and data structures enhancement is the same Weight Tracker mobile application that was developed in CS 360: Mobile Architecture and Programming in December 2024. This application allows users to log in and record daily weight entries, which are stored locally using a SQLite database through Room. While the original implementation contained a basic data storage and retrieval method, the artifact was expanded to include an improved search method. This enhancement implements a more efficient, scalable data structure for searching by weight and date. 
+The artifact selected for the algorithms and data structures enhancement is the same Weight Tracker mobile application that was developed in CS 360: Mobile Architecture and Programming. The original implementation contained a basic data storage and retrieval method, the artifact was expanded to include an improved search method. This enhancement implements a more efficient, scalable data structure for searching by weight and date. 
 
 The artifact was selected because it demonstrates how algorithm and data structure choices affect an application's performance. In the original implementation, the search iterated through the list because weight entries were stored there. If a linear search had been used to find a weight by date, it would have to check every weight, or it would never find a match. Thus, resulting in a linear time complexity of O(n). However, for performance, a HashMap lookup mechanism was implemented (in the HashMapWeightLookup class). In this design, the date string was used as the key, and the corresponding WeightEntry object was stored as the value. This means the lookup can jump directly to the entry without having to examine every value. Thus, resulting in O(1) constant time, which is significantly faster than a linear search. Even though HashMap will use more memory, this algorithm's efficiency outweighs the cost of that memory usage. 
 
@@ -45,7 +46,7 @@ Throughout this development process, I gained a stronger understanding of how al
 
 ## Enhancement Three: Databases
 
-The artifact selected for the databases enhancement is the same Weight Tracker mobile application that was originally developed in CS 360: Mobile Architecture and Programming back in December 2024. This application stores user credentials, daily weight entries, and goal weight data using a local SQLite database through Android Studio’s Room library. In its original form, the database design was functional but simple, relying on basic table structures and queries that did not fully leverage relational database principles or advanced query capabilities. For this enhancement, the artifact was expanded to improve database design, optimize query performance, and help support analytical features on the dashboard. These changes were implemented as part of the CS499 category three enhancement process to increase the technical and professional quality of the application.
+The artifact selected for the databases enhancement is the same Weight Tracker mobile application as mentioned above. This application stores user credentials, daily weight entries, and goal weight data using a local SQLite database through Android Studio’s Room library. In its original form, the database design was functional but simple, relying on basic table structures and queries that did not fully leverage relational database principles or advanced query capabilities. For this enhancement, the artifact was expanded to improve database design, optimize query performance, and help support analytical features on the dashboard. These changes were implemented as part of the CS499 category three enhancement process to increase the technical and professional quality of the application.
 
 This artifact was selected because it offered a good opportunity to demonstrate database skills that can be applied in software development. The enhancement focused on redesigning the schema to enforce relational integrity through foreign keys, normalizing tables to separate user, weight-entry, and goal-related data, and adding database indexes on frequently queried fields, such as userId and date. These changes improved query efficiency and scalability as the dataset grew larger. In addition, advanced aggregation queries were introduced to compute analytical metrics, such as total weight change and body mass index (BMI), which are displayed on the dashboard screen. Parameterized queries were used through the Room DAOs. This prevents SQL injection and ensures secure data handling. All of these improvements showcase skills in relational database design, indexing strategies, complex function aggregation, and secure query implementation, which are essential for data-driven applications.
 
@@ -53,4 +54,8 @@ The enhancement met the course outcomes that were outlined in the Module One pla
 
 Through this enhancement, I have learned how database design decisions can affect an application's performance, scalability, and security. One challenge faced was managing schema changes while keeping compatibility with Room’s migration system. This required a careful approach to the versioning and data integrity. Another issue was creating efficient aggregation queries that were easy to maintain and use with the service layer. Overall, this enhancement highlights the importance of database design and reinforces how optimized queries and normalized schemas can improve the reliability and analytics of the application.
 
+## Artifact Access
+
+- [View Original Artifact (Zip file)](./WeightTrackerApp_CS360_Original.zip)
+- [View Enhanced Application (Zio file)](./WeightTrackerApp_CS499_Enhanced.zip)
 
