@@ -1,4 +1,4 @@
-Portfolio Navigation
+## Portfolio Navigation
 - [Professional Self-Assessment](#professional-self-assessment)
 - [Code Review](#code-review)
 - [Enhancement One: Software Design and Engineering](#enhancement-one-software-design-and-engineering)
