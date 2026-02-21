@@ -57,7 +57,6 @@ This enhancement met the course outcomes that were planned, particularly those r
 
 Specific outcomes met:
 -	Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
--	Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  
 -	Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)
 
 Throughout this development process, I gained a stronger understanding of how algorithmic concepts translate directly into solutions that meet business needs and improve software. One challenge was to ensure the HashMap stayed synchronized with the database. This required modifying the index whenever LiveData updates were received. Another challenge was reusing the InputValidator class to ensure input was correct and no errors were output. I think this enhancement has strengthened my understanding of time complexity, data structure selection, and how to incorporate optimized algorithms into an Android application to improve performance, reliability, and scalability.
