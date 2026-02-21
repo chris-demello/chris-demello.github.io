@@ -38,6 +38,15 @@ Specific outcomes met:
 
 During the process of modifying my artifact, I found it valuable to understand how architectural decisions can affect an application's maintainability and scalability. One challenge was transitioning the logic out of the activity classes and into reusable components while maintaining the same functionality. Another challenge was implementing security, especially password hashing. This required much more research to ensure practices aligned with security standards. Overall, this process highlighted the importance of designing software that can be promoted to help with future employment and academic work.
 
+Key files showcasing enhancement:
+ - [DashboardActivity.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/DashboardActivity.java)
+ - [ChartUtils.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/ChartUtils.java)
+ - [PasswordUtils.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/PasswordUtils.java)
+ - [InputValidator.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/InputValidator.java)
+ - [AuthService.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/AuthService.java)
+ - [GoalService.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/GoalService.java)
+
+
 ## Enhancement Two: Algorithms and Data Structures
 
 The artifact selected for the algorithms and data structures enhancement is the same Weight Tracker mobile application that was developed in CS 360: Mobile Architecture and Programming. The original implementation contained a basic data storage and retrieval method, the artifact was expanded to include an improved search method. This enhancement implements a more efficient, scalable data structure for searching by weight and date. 
@@ -53,6 +62,9 @@ Specific outcomes met:
 
 Throughout this development process, I gained a stronger understanding of how algorithmic concepts translate directly into solutions that meet business needs and improve software. One challenge was to ensure the HashMap stayed synchronized with the database. This required modifying the index whenever LiveData updates were received. Another challenge was reusing the InputValidator class to ensure input was correct and no errors were output. I think this enhancement has strengthened my understanding of time complexity, data structure selection, and how to incorporate optimized algorithms into an Android application to improve performance, reliability, and scalability.
 
+Key files showcasing enhancement:
+- [HashMapWeightLookup.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/HashMapWeightLookup.java)
+
 ## Enhancement Three: Databases
 
 The artifact selected for the databases enhancement is the same Weight Tracker mobile application as mentioned above. This application stores user credentials, daily weight entries, and goal weight data using a local SQLite database through Android Studio’s Room library. In its original form, the database design was functional but simple, relying on basic table structures and queries that did not fully leverage relational database principles or advanced query capabilities. For this enhancement, the artifact was expanded to improve database design, optimize query performance, and help support analytical features on the dashboard. These changes were implemented as part of the CS499 category three enhancement process to increase the technical and professional quality of the application.
@@ -67,6 +79,11 @@ Specific outcomes met:
 -	Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  
 
 Through this enhancement, I have learned how database design decisions can affect an application's performance, scalability, and security. One challenge faced was managing schema changes while keeping compatibility with Room’s migration system. This required a careful approach to the versioning and data integrity. Another issue was creating efficient aggregation queries that were easy to maintain and use with the service layer. Overall, this enhancement highlights the importance of database design and reinforces how optimized queries and normalized schemas can improve the reliability and analytics of the application.
+
+Key files showcasing enhancement:
+- [WeightEntry.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/WeightEntry.java)
+- [WeightEntryDAO.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/WeightEntryDAO.java)
+- [WeightRepository.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/WeightRepository.java)
 
 ## Artifact Access
 
