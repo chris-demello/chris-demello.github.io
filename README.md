@@ -62,8 +62,9 @@ Specific outcomes met:
 
 Throughout this development process, I gained a stronger understanding of how algorithmic concepts translate directly into solutions that meet business needs and improve software. One challenge was to ensure the HashMap stayed synchronized with the database. This required modifying the index whenever LiveData updates were received. Another challenge was reusing the InputValidator class to ensure input was correct and no errors were output. I think this enhancement has strengthened my understanding of time complexity, data structure selection, and how to incorporate optimized algorithms into an Android application to improve performance, reliability, and scalability.
 
-Key files showcasing enhancement:
+Key file showcasing enhancement:
 - [HashMapWeightLookup.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/HashMapWeightLookup.java)
+- [DashboardActivity.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/DashboardActivity.java)
 
 ## Enhancement Three: Databases
 
@@ -84,6 +85,7 @@ Key files showcasing enhancement:
 - [WeightEntry.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/WeightEntry.java)
 - [WeightEntryDAO.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/WeightEntryDAO.java)
 - [WeightRepository.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/WeightRepository.java)
+- [DashboardActivity.java](https://github.com/chris-demello/chris-demello.github.io/blob/main/DashboardActivity.java)
 
 ## Artifact Access
 
